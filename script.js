@@ -3,7 +3,7 @@ export const fetchPokemom = () => {
 
   const pokemomPromisses = []
 
-  for (let i = 1; i <= 905; i++) {
+  for (let i = 1; i <= 721; i++) {
     pokemomPromisses.push(
       fetch(getPokemomUrl(i)).then((response) => response.json())
     )
